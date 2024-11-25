@@ -25,9 +25,9 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin @Kirodewal"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/kirodewal")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://upayme.vercel.app/Hxbots@sbi"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://upayme.vercel.app/Hxbots@sbi")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Admin",url = "https://t.me/Skadminrobot")], 
+        			[InlineKeyboardButton("Phone Pay",url = "https://razorpay.me/@skfilmbox"),
+        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://razorpay.me/@skfilmbox")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -55,9 +55,9 @@ async def upgradecm(bot,message):
 	After Payment Send Screenshots Of 
         Payment To Admin @Kirodewal"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/kirodewal")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://upayme.vercel.app/Hxbots@sbi"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://upayme.vercel.app/Hxbots@sbi")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Admin",url = "https://t.me/Skadminrobot")], 
+        			[InlineKeyboardButton("Phone Pay",url = "https://razorpay.me/@skfilmbox"),
+        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://razorpay.me/@skfilmbox")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
