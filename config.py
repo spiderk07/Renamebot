@@ -1,17 +1,17 @@
 import os, re
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7223099266:AAH3C5zhJTp6rd17apB1fVF5TpKohS7aoHw")
+API_ID = int(os.environ.get("API_ID", "27967371"))
+API_HASH = os.environ.get("API_HASH", "c8c22d9e427b8589236a6cd94a82a244")
+OWNER = int(os.environ.get("OWNER", "5928972764"))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "Skmovies_linkbot")
 
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "HxBots")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002031041556"))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "Skfilmbox")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001603714460"))
 
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "renamebot-premium")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://POSTBOT:POST90@cluster0.u7dfgwv.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME", "cluster0")
 
 STRING = os.environ.get("STRING", "")
 BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/cca849a2f63053fa3f622.jpg")
