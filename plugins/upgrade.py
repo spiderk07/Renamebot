@@ -20,10 +20,10 @@ async def upgrade(bot,update):
 	Price Rs 179  ind /🌎 2.16$  per Month
 	
 	
-	Pay Using Upi I'd `hxbots@sbi`
+	Pay Using Upi I'd `https://razorpay.me/@skfilmbox`
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @Kirodewal"""
+        Payment To Admin @Skfimsbox"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Admin",url = "https://t.me/Skadminrobot")], 
         			[InlineKeyboardButton("Phone Pay",url = "https://razorpay.me/@skfilmbox"),
@@ -50,10 +50,10 @@ async def upgradecm(bot,message):
 	Price Rs 179  ind /🌎 2.16$  per Month
 	
 	
-	Pay Using Upi I'd `HxBots@sbi`
+	Pay Using Upi I'd `https://razorpay.me/@skfilmbox`
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @Kirodewal"""
+        Payment To Admin @Skfilmsbox"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Admin",url = "https://t.me/Skadminrobot")], 
         			[InlineKeyboardButton("Phone Pay",url = "https://razorpay.me/@skfilmbox"),
