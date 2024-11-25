@@ -116,7 +116,7 @@ async def dft(bot,update):
 	usertype(int(user_id),"🆓 Free")
 	addpre(int(user_id))
 	await update.message.edit("**Daily Data Limit Has Been Reset Successfully.**\n\nThis Account Has Default 2GB Remaining Capacity")
-	await bot.send_message(user_id,"**Your Daily Data Limit Has Been Reset Successfully.**\n\nCheck Your Plan Here /myplan\n\n**Contact Admin :** <a href='https://t.me/Kirodewal'>Kirodewal</a>")
+	await bot.send_message(user_id,"**Your Daily Data Limit Has Been Reset Successfully.**\n\nCheck Your Plan Here /myplan\n\n**Contact Admin :** <a href='https://t.me/Skadminrobot'>SK</a>")
 
 
 
