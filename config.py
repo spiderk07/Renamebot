@@ -10,7 +10,7 @@ BOT_USERNAME = os.environ.get('BOT_USERNAME', "Skmovies_linkbot")
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "Skfilmbox")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001603714460"))
 
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://POSTBOT:POST90@cluster0.u7dfgwv.mongodb.net/?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://POSTBOT:POST90@cluster0.036yk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "cluster0")
 
 STRING = os.environ.get("STRING", "")
