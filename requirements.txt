@@ -8,3 +8,10 @@ dnspython
 Flask
 gunicorn==20.1.0
 aiohttp
+requests
+yt-dlp
+olefile
+loggers
+filetype
+tldextract
+lk21
